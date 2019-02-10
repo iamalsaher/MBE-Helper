@@ -11,3 +11,5 @@ Known issues:
 TODO:
 1. Add the functionality to revisit any level
 2. Show passwords and comments for a level
+
+When running for the first time, the script generates a sqlite3 database in which it stores all the data. Deleting data in the script can yield unintended results though if you delete the passwords from level and adjust the status to 0, it will login you to the last level which has the status set to 1
