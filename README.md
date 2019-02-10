@@ -7,6 +7,7 @@ Basically just automated as much as I could so people can just focus on exploita
 Known issues:
 1. Works on python2 because of pwntools, but should work on python3 when pwntools comes to python3
 2. Delete files function has bugs
+
 TODO:
 1. Add the functionality to revisit any level
 2. Show passwords and comments for a level
