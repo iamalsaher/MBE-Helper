@@ -1,2 +1,4 @@
 # MBE-Helper
-A python script which automatically connects to server at the latest level, so you don't need to worry about passwords or anything. Just focus on exploitation, let the script download the files and do the connections and once you
+A python script which helps you while you attempt RPISEC's Modern Binary Exploitation.
+
+It keeps track of all the passwords and automatically downloads the files for the current level. You need to just focus on exploitation and leave the connection and file downloading part to us
