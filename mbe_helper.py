@@ -14,6 +14,8 @@ cursor=db.cursor()
 def getNextUser(currentUser): 
     if currentUser[-1]=='A':
         return currentUser[:-1]+'end'
+    elif currentUser[3]=='7':
+        return 'lab7A'
     else:
         return (currentUser[:-1]+chr(ord(currentUser[-1])-1))
 
